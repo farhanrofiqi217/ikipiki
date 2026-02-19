@@ -52,13 +52,14 @@ li  {list-style: none;}
     padding: 40px ;
 }
 .copy-countainer h1 {
+
     font-size: 140px;
 }
 .copy-countainer h2 {
     font-size: 60px;
 }
 .copy-countainer span {
-    color: rgb(255, 179, 0);
+    color: rgb(0, 255, 234);
 }
 .contents {
     background-color: rgb(44, 61, 63);
