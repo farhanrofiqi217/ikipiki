@@ -43,7 +43,7 @@ a{
 }
 
 .signup {
-    background-color: #239b76;
+    background-color: #c03232;
 }
 
 .facebook {
@@ -112,3 +112,6 @@ header {
     color: white;
     display: block;
 }
+h1   {color: rgb(255, 179, 0);   
+       font-size: 40px;
+        font-family: "Arial Black";}
