@@ -1,210 +1,262 @@
-body {
-    margin: 0;
-    font-family: "Lucida Grande";
-}
+@media (max-width: 1000px) {
+    * {
+        box-sizing: border-box;
+    }
+    .container {
+        width: 50%;
+        padding: 0 15px;
+    }
 
-a{
-    text-decoration: none;
-}
+    .top-wrapper {
+        padding: 120px 0 80px 0;
+    }
 
-.container {
-    width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
+    .top-wrapper h1 {
+        font-size: 30px;
+    }
 
-.top-wrapper {
-    padding: 180px 0 100px 0;
-    background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
-    background-size: cover;
-    color: white;
-    text-align: center;
-}
+    .btn-wrapper p {
+        margin: 5px 0;
+    }
 
-.top-wrapper h1 {
-    opacity: 0.7;
-    font-size: 45px;
-    letter-spacing: 5px;
-    margin-bottom: 10px;
-}
+    .btn-wrapper .facebook,
+    .btn-wrapper .twitter {
+        width: 50%;
+        margin: 5px 0;
+    }
 
-.top-wrapper p {
-    opacity: 0.7;
-    margin-bottom: 3px;
-}
+    header {
+        height: auto;
+    }
 
-.btn-wrapper {
-    margin: 20px 0;
-    text-align: center;
-}
+    .header-left,
+    .header-right {
+        float: none;
+        text-align: center;
+    }
 
-.btn-wrapper p {
-    margin: 10px 0;
-}
+    .header-right a {
+        line-height: normal;
+        padding: 10px 15px;
+    }
 
-.signup {
-    background-color: #c03232;
-}
+    .lesson-wrapper {
+        height: auto;
+        padding-bottom: 30px;
+    }
 
-.facebook {
-    background-color: #3b5998;
-    margin-right: 10px;
-}
+    .lesson {
+        width: 50%;
+        margin-bottom: 30px;
+    }
 
-.twitter {
-    background-color: #55acee;
-}
+    body {
+        margin: 0;
+        font-family: "Lucida Grande";
+    }
 
-.facebook,
-.twitter {
-    display: inline-block;
-    width: 200px;
-    text-align: center;
-    margin: 0 10px;
-}
+    a{
+        text-decoration: none;
+    }
 
-.btn {
-    padding: 12px 24px;
-    color: white;
-    display: inline-block;
-    opacity: 0.8;
-    border-radius: 4px;
-    margin: 10px 0;
-}
+    .container {
+        width: 100%;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
 
-.btn:hover {
-    opacity: 1;
-}
+    .top-wrapper {
+        padding: 180px 0 100px 0;
+        background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+        background-size: cover;
+        color: white;
+        text-align: center;
+    }
 
-.fa {
-    margin-right: 5px;
-}
+    .top-wrapper h1 {
+        opacity: 0.7;
+        font-size: 45px;
+        letter-spacing: 5px;
+        margin-bottom: 10px;
+    }
 
-header {
-    height: 65px;
-    width: 100%;
-    background-color: rgba(34, 49, 52, 0.9);
-}
+    .top-wrapper p {
+        opacity: 0.7;
+        margin-bottom: 3px;
+    }
 
-.logo {
-    width: 124px;
-    margin-top: 20px;
-}
+    .btn-wrapper {
+        margin: 20px 0;
+        text-align: center;
+    }
 
-.header-left {
-    float: left;
-}
+    .btn-wrapper p {
+        margin: 10px 0;
+    }
 
-.header-right {
-    float: right;
-    background-color: rgba(255, 255, 255, 0.3);
-    transition: all 0.5s;
-}
+    .signup {
+        background-color: #c03232;
+    }
 
-.header-right:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-}
+    .facebook {
+        background-color: #3b5998;
+        margin-right: 10px;
+    }
 
-.header-right a {
-    line-height: 65px;
-    padding-left: 25px;
-    padding-right: 25px;
-    color: white;
-    display: block;
-}
+    .twitter {
+        background-color: #55acee;
+    }
 
-h1   {
-    color: rgb(255, 179, 0);   
-    font-size: 40px;
-    font-family: "Arial Black";}
+    .facebook,
+    .twitter {
+        display: inline-block;
+        width: 200px;
+        text-align: center;
+        margin: 0 10px;
+    }
 
-p    {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-family: "Lucida Grande";}    
-/**/
+    .btn {
+        padding: 12px 24px;
+        color: white;
+        display: inline-block;
+        opacity: 0.8;
+        border-radius: 4px;
+        margin: 10px 0;
+    }
+
+    .btn:hover {
+        opacity: 1;
+    }
+
+    .fa {
+        margin-right: 5px;
+    }
+
+    header {
+        height: 65px;
+        width: 50%;
+        background-color: rgba(34, 49, 52, 0.9);
+    }
+
+    .logo {
+        width: 124px;
+        margin-top: 20px;
+    }
+
+    .header-left {
+        float: left;
+    }
+
+    .header-right {
+        float: right;
+        background-color: rgba(255, 255, 255, 0.3);
+        transition: all 0.5s;
+    }
+
+    .header-right:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .header-right a {
+        line-height: 65px;
+        padding-left: 25px;
+        padding-right: 25px;
+        color: white;
+        display: block;
+    }
+
+    h1   {
+        color: rgb(255, 179, 0);   
+        font-size: 40px;
+        font-family: "Arial Black";}
+
+    p    {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: "Lucida Grande";}    
+    /**/
 
 
-.lesson-wrapper {
-    height: 500px;
-    padding-bottom: 80px;
-    background-color: #f7f7f7;
-    text-align: center;
-}
+    .lesson-wrapper {
+        height: 500px;
+        padding-bottom: 80px;
+        background-color: #f7f7f7;
+        text-align: center;
+    }
 
-.heading {
-    padding-top: 60px;
-    padding-bottom: 30px;
-    color: #5f5d60;
-}
+    .heading {
+        padding-top: 60px;
+        padding-bottom: 30px;
+        color: #5f5d60;
+    }
 
-.heading h2 {
-    font-weight: normal;
-}
+    .heading h2 {
+        font-weight: normal;
+    }
 
-.heading h3 {
-    font-weight: normal;
-}
+    .heading h3 {
+        font-weight: normal;
+    }
 
-.lesson {
-    float: left;
-    width: 25%;
-}
+    .lesson {
+        float: left;
+        width: 50%;
+    }
 
-.lesson-icon {
-    position: relative;
-}
+    .lesson-icon {
+        position: relative;
+    }
 
-.lesson-icon p {
-    position: absolute;
-    top: 90px;
-    width: 100%;
-    color: white;
-}
+    .lesson-icon p {
+        position: absolute;
+        top: 90px;
+        width: 100%;
+        color: white;
+    }
 
-.txt-contents {
-    width: 80%;
-    display: inline-block;
-    margin-top: 20px;
-    font-size: 15px;
-    color: #b3aeb5;
-}
+    .txt-contents {
+        width: 50%;
+        display: inline-block;
+        margin-top: 20px;
+        font-size: 15px;
+        color: #b3aeb5;
+    }
 
-.lessons::after {
-    content: "";
-    display: block;
-    clear: both;
-}
+    .lessons::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
 
-.message-wrapper {
-    border-bottom: 1px solid #eee;
-    padding-bottom: 80px;
-    text-align: center;
-}
+    .message-wrapper {
+        border-bottom: 1px solid #eee;
+        padding-bottom: 80px;
+        text-align: center;
+    }
 
-.message {
-    padding: 15px 40px;
-    background-color: #5dca88;
-    cursor: pointer;
-    box-shadow: 0 7px #1a7940;
-}
+    .message {
+        padding: 15px 40px;
+        background-color: #5dca88;
+        cursor: pointer;
+        box-shadow: 0 7px #1a7940;
+    }
 
-.message:active {
-    position: relative;
-    top: 7px;
-    box-shadow: none;
-}
+    .message:active {
+        position: relative;
+        top: 7px;
+        box-shadow: none;
+    }
 
-footer {
-    padding-top: 30px;
-}
+    footer {
+        padding-top: 30px;
+    }
 
-footer img {
-    width: 125px;
-}
+    footer img {
+        width: 125px;
+    }
 
-footer p {
+    footer p {
     color: #b3aeb5;
     font-size: 12px;
-}
-        
+    }
+    }        
